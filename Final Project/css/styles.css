@@ -1,0 +1,86 @@
+.bg-white {
+  background-color: white;
+}
+
+.bg-light-gray {
+  background-color: #f0efef;
+}
+
+.bg-dark-gray {
+  background-color: #606161;
+}
+
+.bg-dark-blue {
+  background-color: #033048;
+}
+
+.bg-yellow {
+  background-color: #f9e42e;
+}
+
+.text-dark-gray {
+  color: #606161;
+}
+
+.text-white {
+  color: #FFFFFF;
+}
+
+.text-dark-blue {
+  color: #033048;
+}
+
+.text-yellow {
+  color: #f9e42e;
+}
+
+.text-red {
+  color: red;
+}
+
+footer {
+  padding: 50px;
+}
+
+nav a {
+  color: inherit;
+}
+
+footer img {
+  padding: 50px;
+}
+
+input {
+  width: 200px;
+  height: 50px;
+}
+
+.photos {
+  width: 750px;
+  padding-top: 200px;
+}
+.Final_Project-container {
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+.Final_Project-container {
+  width: 750px;
+}
+.indicators {
+  margin: 20px;
+  width: 20px;
+  height: 20px;
+  background-color: grey;
+}
+.indicators-container {
+  display: flex;
+  justify-content: center;
+}
+indicators:hover, .active {
+  background-color: cornflowerblue;
+}
+.flex-center {
+  justify-content: center;
+  align-items: center;
+}
