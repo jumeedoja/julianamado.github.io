@@ -1,0 +1,186 @@
+.main-header {
+  background-color: white;
+  color: #7B98AA;
+  display: flex;
+  justify-content: center;
+}
+
+.main-header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  width: 40%;
+  text-transform: uppercase;
+}
+
+.main-header a {
+  text-decoration: none;
+  color: inherit;
+  font-size: 16px;
+}
+
+.main-title {
+  background-image: url("../images/home_header_bg.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 700px;
+  color: white;
+  text-transform: uppercase;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.main-title h1 {
+  font-size: 37px;
+  letter-spacing: 15px;
+}
+
+.main-title p {
+  font-size: 23px;
+}
+
+.archive {
+  color: #44545E;
+  padding: 100px 0;
+}
+
+.archive h3 {
+  font-size: 23px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.archive div {
+  display: flex;
+}
+
+.archive article {
+  text-align: center;
+}
+
+.archive h4 {
+  text-transform: uppercase;
+  margin-bottom: 40px;
+}
+
+.archive p {
+  font-family: 'Lato';
+  font-size: 15px;
+  margin-bottom: 50px;
+}
+
+.archive button {
+  font-family: 'Raleway';
+  font-size: 13px;
+  text-decoration: none;
+  border: 3px solid #44545E;
+  text-transform: uppercase;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+
+.about {
+  text-align: center;
+  background-color: #CDF3F6;
+  padding: 100px 300px;
+  color: #44545E;
+}
+
+.about h2 {
+  text-transform: uppercase;
+  font-size: 23px;
+}
+
+.about h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.about p {
+  font-family: 'Lato';
+  font-size: 15px;
+}
+
+.gallery {
+  color: #44545E;
+  padding: 100px 0;
+}
+
+.gallery h2 {
+  text-transform: uppercase;
+  font-size: 23px;
+  text-align: center;
+}
+
+.gallery h3 {
+  text-transform: uppercase;
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.gallery .flex-container {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto;
+}
+
+.gallery article {
+  width: 32%;
+}
+
+.gallery img {
+  width: 100%;
+  margin-bottom: 15px;
+}
+
+.footer {
+  background-color: #CDF3F6;
+  padding: 50px 0;
+  text-align: center;
+  color: #44545E;
+}
+
+.footer nav {
+  margin-bottom: 50px;
+}
+
+.footer img {
+  width: 25px;
+  height: auto;
+  margin: 0 10px;
+}
+
+.footer input {
+  text-align: center;
+  text-transform: uppercase;
+  padding: 5px 50px;
+  margin-right: 20px;
+  border: none;
+  height: 30px;
+  font-size: 16px;
+}
+
+.footer button {
+  height: 40px;
+  text-decoration: none;
+  border: 2px solid #44545E;
+  text-transform: uppercase;
+  padding: 5px 20px;
+  font-size: 16px;
+  background-color: inherit;
+  cursor: pointer;
+}
+
+.footer hr {
+  margin: 50px 0 10px;
+  border: 1px solid #44545E;
+}
+
+.footer p {
+  color: #44545E;
+}
